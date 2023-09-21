@@ -1,3 +1,4 @@
+import DefaultNavbar from './components/NavBar'
 import CreateCardGeneral from './pages/CreateCardGeneral'
 
 function App () {
@@ -12,6 +13,7 @@ function App () {
           Base Project
         </p>
       </div> */}
+      <DefaultNavbar />
       <CreateCardGeneral />
     </div>
   )

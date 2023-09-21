@@ -17,7 +17,7 @@ export default {
       white: '#FFFFFF',
       black: {
         DEFAULT: '#000000',
-        medium: '#111111'
+        medium: '#131313'
       },
       green: '#64CFB6'
     },
