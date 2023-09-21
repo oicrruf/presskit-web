@@ -3,7 +3,7 @@ import photoIcon from '../assets/photo_icon.png'
 const CreateCardGeneral = () => {
   return (
     <div className='bg-black-medium h-screen flex flex-col items-center'>
-      <div className='w-10/12 bg-grey mt-5 mb-10 rounded-[20px] flex flex-col items-center shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)]'>
+      <div className='w-10/12 bg-grey mt-1 mb-10 rounded-[20px] flex flex-col items-center shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)]'>
         <p className='text-black my-5 text-center text-xl'>Descríbenos tu trabajo</p>
         <textarea
           name=''

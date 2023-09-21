@@ -1,6 +1,3 @@
-'use client'
-
-import { Navbar } from 'flowbite-react'
 import { useState } from 'react'
 import { BiMenu } from 'react-icons/bi'
 
@@ -8,10 +5,8 @@ export default function DefaultNavbar () {
   const [toggle, setToggle] = useState(false)
 
   return (
-    <Navbar
-      fluid
-      rounded
-      className='bg-black-medium text-xl'
+    <nav
+      className='bg-black-medium text-xl flex justify-between items-center px-4 py-2'
     >
       <div className='hidden md:block text-white'>
         <a href='#' className='p-5'>
@@ -28,7 +23,7 @@ export default function DefaultNavbar () {
         </a>
       </div>
       <div className='md:hidden flex align-middle justify-center p-1'>
-        <BiMenu onClick={(e) => setToggle(!toggle)} className='text-white text-6xl' />
+        <BiMenu onClick={(e) => setToggle(!toggle)} className='text-white text-6xl cursor-pointer' />
       </div>
       {toggle
         ? (
@@ -48,13 +43,13 @@ export default function DefaultNavbar () {
           </div>
           )
         : null}
-      <Navbar.Brand href='#'>
+      <a href='#'>
         <img
           alt='Presskit Logo'
           className='mr-3 w-[55px]'
           src='./qr_logo.png'
         />
-      </Navbar.Brand>
-    </Navbar>
+      </a>
+    </nav>
   )
 }
