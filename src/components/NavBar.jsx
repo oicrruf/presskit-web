@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BiMenu } from 'react-icons/bi'
+import QRLogo from '../assets/Logo_60x60.png'
 
 export default function DefaultNavbar () {
   const [toggle, setToggle] = useState(false)
@@ -47,7 +48,7 @@ export default function DefaultNavbar () {
         <img
           alt='Presskit Logo'
           className='mr-3 w-[55px]'
-          src='./qr_logo.png'
+          src={QRLogo}
         />
       </a>
     </nav>
