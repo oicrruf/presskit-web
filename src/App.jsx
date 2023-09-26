@@ -12,7 +12,6 @@ function App () {
       </div>
     </div>
   )
-}ss
+}
 
 export default App
-ccc
