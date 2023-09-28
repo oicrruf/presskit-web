@@ -2,10 +2,10 @@ import React from 'react'
 
 const PrincipalPage = () => {
   return (
-    <div>
-      <div className='bg-gradient-to-t from-black-medium to-grey-dark h-screen flex flex-col items-center'>
-        <img src='./qr_logo.png' alt='Logo' className='w-3/12' />
-        <div className='text-white text-xl m-10'>
+    <div className='max-w-80%'>
+      <div className='bg-gradient-to-t from-black-medium to-grey-dark h-screen flex flex-col items-center '>
+        <img src='./qr_logo.png' alt='Logo' className='w-3/12 m-10' />
+        <div className='text-white text-m m-10'>
           <p>
             ¡Crea tu tarjeta de presentación electrónica
             en segundos! Ingresa tus datos y obtén
@@ -19,6 +19,9 @@ const PrincipalPage = () => {
             <button type='submit' className='bg-black text-white rounded-lg w-80 m-1.5 text-4xl'>Login</button>
             <button type='submit' className='bg-black text-white rounded-lg w-80 m-1.5 text-4xl'>Register</button>
           </div>
+        </div>
+        <div>
+          <button type='submit' className='bg-black text-white rounded-3xl w-60 m-1.5 text-2xl'>Contact</button>
         </div>
       </div>
     </div>
