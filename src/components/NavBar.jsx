@@ -10,17 +10,23 @@ export default function DefaultNavbar () {
       className='bg-black-medium text-xl flex justify-between items-center px-4 py-2'
     >
       <div className='hidden md:block text-white'>
-        <a href='#' className='p-5'>
+        <a href='/login' className='p-5'>
           Login
         </a>
-        <a href='#' className='p-5'>
+        <a href='/register' className='p-5'>
           Register
         </a>
-        <a href='#' className='p-5'>
-          Create Card
+        <a href='/CreateCardGeneral' className='p-5'>
+          Create Card (General)
         </a>
         <a href='#' className='p-5'>
+          Create Card (SNS)
+        </a>
+        <a href='/ShareCard' className='p-5'>
           Share Card
+        </a>
+        <a href='#' className='p-5'>
+          Presskit
         </a>
       </div>
       <div className='md:hidden flex align-middle justify-center p-1'>
@@ -29,17 +35,23 @@ export default function DefaultNavbar () {
       {toggle
         ? (
           <div className='bg-grey rounded-md absolute top-[80px] flex flex-col'>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+            <a href='/login' className='px-5 py-2 flex justify-center items-center text-center'>
               Login
             </a>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+            <a href='/register' className='px-5 py-2 flex justify-center items-center text-center'>
               Register
             </a>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
-              Create Card
+            <a href='/CreateCardGeneral' className='px-5 py-2 flex justify-center items-center text-center'>
+              Create Card (General)
             </a>
             <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+              Create Card (SNS)
+            </a>
+            <a href='/ShareCard' className='px-5 py-2 flex justify-center items-center text-center'>
               Share Card
+            </a>
+            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+              Presskit
             </a>
           </div>
           )
