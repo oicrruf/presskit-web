@@ -5,13 +5,14 @@ import ShareCard from './pages/ShareCard'
 import QR from './pages/QR'
 import Register from './pages/Register'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import PrincipalPage from './pages/PrincipalPage'
 
 function App () {
   return (
     <Router>
       <DefaultNavbar />
       <Routes>
-        <Route path='/' element={<Register />} /> {/* cambiar a inicio */}
+        <Route path='/' element={<PrincipalPage />} /> {/* cambiar a inicio */}
         <Route path='/register' element={<Register />} />
         {/* <Route path='/CreateCardSNS' element={<CreateCardSNS />} /> */}
         <Route path='/CreateCardGeneral' element={<CreateCardGeneral />} />
