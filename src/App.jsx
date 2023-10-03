@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import DefaultNavbar from './components/NavBar'
 import CreateCardGeneral from './pages/CreateCardGeneral'
 import Login from './pages/Login'
