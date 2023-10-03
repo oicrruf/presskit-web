@@ -6,7 +6,7 @@ import QR from './pages/QR'
 import Register from './pages/Register'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import PrincipalPage from './pages/PrincipalPage'
-
+import Sns from './pages/Sns'
 function App () {
   return (
     <Router>
@@ -14,7 +14,7 @@ function App () {
       <Routes>
         <Route path='/' element={<PrincipalPage />} /> {/* cambiar a inicio */}
         <Route path='/register' element={<Register />} />
-        {/* <Route path='/CreateCardSNS' element={<CreateCardSNS />} /> */}
+        <Route path='/CreateCardSNS' element={<Sns />} />
         <Route path='/CreateCardGeneral' element={<CreateCardGeneral />} />
         <Route path='/ShareCard' element={<ShareCard />} />
         <Route path='/login' element={<Login />} />
