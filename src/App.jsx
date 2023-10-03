@@ -1,13 +1,14 @@
 /* eslint-disable react/jsx-pascal-case */
 import DefaultNavbar from './components/NavBar'
 import CreateCardGeneral from './pages/CreateCardGeneral'
-import Login from './pages/Login'
+import Presskit from './pages/Presskit'
 import ShareCard from './pages/ShareCard'
 import QR from './pages/QR'
 import Register from './pages/Register'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import PrincipalPage from './pages/PrincipalPage'
 import Sns from './pages/Sns'
+
 function App () {
   return (
     <Router>

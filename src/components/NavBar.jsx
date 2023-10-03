@@ -28,6 +28,7 @@ export default function DefaultNavbar () {
         <a href='#' className='p-5'>
           Presskit
         </a>
+        
       </div>
       <div className='md:hidden flex align-middle justify-center p-1'>
         <BiMenu onClick={(e) => setToggle(!toggle)} className='text-white text-6xl cursor-pointer' />

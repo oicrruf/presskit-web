@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 12.5px 0 12.5px 0;
+}
+
+.InfoUsario{
+    margin: 5px 5px 15px 5px;
+}
+.Icon2{
+    color: rgba(0, 0, 0, .5);
+    width: 55px;
+    height: 55px;
+}
+ .IconBox{
+    border-radius: 50%;
+    place-items: center;
+}
