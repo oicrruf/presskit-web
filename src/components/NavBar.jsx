@@ -14,16 +14,16 @@ export default function DefaultNavbar () {
           Login
         </a>
         <a href='/register' className='p-5'>
-          Register
+          Regístrate
         </a>
         <a href='/CreateCardGeneral' className='p-5'>
-          Create Card (General)
+          Crear Tarjeta (General)
         </a>
         <a href='/CreateCardSNS' className='p-5'>
-          Create Card (SNS)
+          Crear Tarjeta (SNS)
         </a>
         <a href='/ShareCard' className='p-5'>
-          Share Card
+          Compartir Tarjeta
         </a>
         <a href='#' className='p-5'>
           Presskit
@@ -39,16 +39,16 @@ export default function DefaultNavbar () {
               Login
             </a>
             <a href='/register' className='px-5 py-2 flex justify-center items-center text-center'>
-              Register
+              Regístrate
             </a>
             <a href='/CreateCardGeneral' className='px-5 py-2 flex justify-center items-center text-center'>
-              Create Card (General)
+              Crear Tarjeta (General)
             </a>
             <a href='/CreateCardSNS' className='px-5 py-2 flex justify-center items-center text-center'>
-              Create Card (SNS)
+              Crear Tarjeta (SNS)
             </a>
             <a href='/ShareCard' className='px-5 py-2 flex justify-center items-center text-center'>
-              Share Card
+              Compartir Tarjeta
             </a>
             <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
               Presskit
