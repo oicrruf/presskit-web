@@ -17,42 +17,42 @@ const Register = () => {
             <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm my-4 font-medium text-slate-800">
               Nombre
             </span>
-            <input type='nombre' name='nombre' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' placeholder='Nombre' />
+            <input type='nombre' name='nombre' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' />
           </label>
 
           <label className='block w-full'>
             <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm my-4 font-medium text-slate-800">
               Apellido
             </span>
-            <input type='apellido' name='apellido' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' placeholder='Apellido' />
+            <input type='apellido' name='apellido' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Apellido' />
           </label>
 
           <label className='block w-full'>
             <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm my-4 font-medium text-slate-800">
               Correo
             </span>
-            <input type='Email' name='email' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' placeholder='@gmail.com' />
+            <input type='Email' name='email' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='@gmail.com' />
           </label>
 
           <label className='block w-full'>
             <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm my-4 font-medium text-slate-800">
               Teléfono
             </span>
-            <input type='Phone' name='Phone' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' placeholder='' />
+            <input type='Phone' name='Phone' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Teléfono' />
           </label>
 
           <label className='block w-full'>
             <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm my-4 font-medium text-slate-800">
               Usuario
             </span>
-            <input type='User' name='User' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' placeholder='Usuario' />
+            <input type='User' name='User' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Usuario' />
           </label>
 
           <label className='block w-full'>
             <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm my-4 font-medium text-slate-800">
               Password
             </span>
-            <input type='Password' name='Password' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Nombre' placeholder='Password' />
+            <input type='Password' name='Password' className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full' placeholder='Password' />
           </label>
 
           <button className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'>

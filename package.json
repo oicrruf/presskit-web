@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@reduxjs/toolkit": "^1.9.6",
     "axios": "^1.5.0",
     "react": "^18.2.0",
@@ -28,6 +31,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.30",
+    "sass": "^1.68.0",
     "standard": "^17.1.0",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"

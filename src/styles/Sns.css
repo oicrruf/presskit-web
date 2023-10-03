@@ -1,0 +1,83 @@
+/* @import url(https//:use.fontawesome.com/releases/v6.4.2/css/all.css); */
+
+.Logo {
+    display: grid;
+    place-items: center;
+    border-radius: 100px;
+    margin: 0 0 12.5px 0;
+    }
+.TxtBox{
+    color: black;
+    margin: 12.5px 0 12.5px 0;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Inter, Tahoma;
+    background-color: #D9D9D9;
+    box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+}
+.TxtBox h2 {
+    font-size: 20px;
+}
+.InputSocial{
+    font-family: Inter, Tahoma;
+    margin: 12.5px 0 12.5px 0;
+    color: black;
+    width: 22.6vw;
+    min-width: 348px;
+    max-width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.SnsTextIntructions{
+    color: white;
+    font-family: Inter, Tahoma;
+    margin: 12.5px 0 12.5px 0;
+    text-align: center;
+}
+.SvgLine{
+    height: 2px;
+}
+
+/* ICONOS */
+.Icon{
+    color: rgba(0, 0, 0, .5);
+    width: 55px;
+    height: 55px;
+}
+ .IconBox{
+    
+    display: grid;
+    place-items: center;
+    margin: 10px 10px 10px 10px;
+    width: 60px;
+    height: 60px;
+    border: #D9D9D9 solid 2px;
+    /* margin: 0 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    background: rgba(0,0,0,0);
+    color: var(--color);
+    font-size: 2.5em;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom rgba(0,0,0,0),rgba(0,0,0,0.4)); */
+}
+
+.Icon:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 1);
+    /* background: var(--color);
+    color: #050801;
+    box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color); */
+} 
