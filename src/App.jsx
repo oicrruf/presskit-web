@@ -6,7 +6,6 @@ function App () {
     <div>
       <DefaultNavbar />
       <Sns />
-      {/* <CreateCardGeneral /> */}
     </div>
   )
 }
