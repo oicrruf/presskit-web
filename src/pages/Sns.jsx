@@ -17,16 +17,18 @@ const Sns = () => {
       <div className='Logo'> 
         <img src={logo} alt='upload photo'/>
       </div>
+
       <section className='TxtBox'>
         <h2>Añade información </h2>
         <h2>a tu perfil!!</h2>
       </section>
-      <div className='SnsTextIntructions'>
-        <h2>Redes Sociales</h2>
+
+      <div className='InfoBox'>
+        <h2>Nombre</h2>
         <svg className='SvgLine'>
         <line x1={0} y1={0} x2={1000} y2={0} strokeWidth={2} stroke="white"></line>
         </svg>
-        <h2>Ingresa el link</h2>
+        <h2>Puesto de trabajo</h2>
       </div>
 
       <div>
@@ -52,7 +54,8 @@ const Sns = () => {
       <div>
       
 
-        <button className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'>Crear tarjeta</button>
+        <button className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'
+        onClick = {sayHello}/* {() => alert.alert('Simple Button press')} */>Crear tarjeta</button>
       </div>
 
 

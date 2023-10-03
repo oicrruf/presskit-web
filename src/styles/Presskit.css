@@ -1,0 +1,20 @@
+*{
+    font-size: 16px;
+}
+
+.maincontainer{
+    background-color: black;
+}
+.photo {
+    display: grid;
+    place-items: center;
+    border: white solid 2px;
+    border-radius: 100px;
+    background-color: blanchedalmond;
+    margin: 0 0 12.5px 0;
+    }
+
+.SvgLine{
+    align-self: center;
+}
+
