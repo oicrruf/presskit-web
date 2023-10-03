@@ -14,7 +14,7 @@ function App () {
       <Routes>
         <Route path='/' element={<PrincipalPage />} /> {/* cambiar a inicio */}
         <Route path='/register' element={<Register />} />
-        {/* <Route path='/CreateCardSNS' element={<CreateCardSNS />} /> */}
+        <Route path='/CreateCardSNS' element={<Sns />} />
         <Route path='/CreateCardGeneral' element={<CreateCardGeneral />} />
         <Route path='/ShareCard' element={<ShareCard />} />
         <Route path='/login' element={<Login />} />

@@ -19,7 +19,7 @@ export default function DefaultNavbar () {
         <a href='/CreateCardGeneral' className='p-5'>
           Create Card (General)
         </a>
-        <a href='#' className='p-5'>
+        <a href='/CreateCardSNS' className='p-5'>
           Create Card (SNS)
         </a>
         <a href='/ShareCard' className='p-5'>
@@ -44,7 +44,7 @@ export default function DefaultNavbar () {
             <a href='/CreateCardGeneral' className='px-5 py-2 flex justify-center items-center text-center'>
               Create Card (General)
             </a>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+            <a href='/CreateCardSNS' className='px-5 py-2 flex justify-center items-center text-center'>
               Create Card (SNS)
             </a>
             <a href='/ShareCard' className='px-5 py-2 flex justify-center items-center text-center'>

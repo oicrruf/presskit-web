@@ -7,23 +7,22 @@
 .Logo {
     display: grid;
     place-items: center;
-    border: white solid 2px;
     border-radius: 100px;
-    background-color: blanchedalmond;
     margin: 0 0 12.5px 0;
     }
 .TxtBox{
-
     color: black;
     margin: 12.5px 0 12.5px 0;
-    height: 52px;
     max-width: 500px;
+    padding: 10px;
     border-radius: 20px;
-    width: 16.23vw;
     text-align: center;
     font-family: Inter, Tahoma;
     background-color: #D9D9D9;
     box-shadow: inset 3px 3px 3px rgba(255,255,255,.7), inset -2px -2px 3px rgba(0,0,0,.1), 2px 2px 10px rgba(0,0,0,.1);
+}
+.TxtBox h2 {
+    font-size: 20px;
 }
 .InputSocial{
     font-family: Inter, Tahoma;
