@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BiMenu } from 'react-icons/bi'
+import QRLogo from '../assets/Logo_60x60.png'
 
 export default function DefaultNavbar () {
   const [toggle, setToggle] = useState(false)
@@ -9,17 +10,23 @@ export default function DefaultNavbar () {
       className='bg-black-medium text-xl flex justify-between items-center px-4 py-2'
     >
       <div className='hidden md:block text-white'>
-        <a href='#' className='p-5'>
+        <a href='/login' className='p-5'>
           Login
         </a>
-        <a href='#' className='p-5'>
+        <a href='/register' className='p-5'>
           Register
         </a>
-        <a href='#' className='p-5'>
-          Create Card
+        <a href='/CreateCardGeneral' className='p-5'>
+          Create Card (General)
+        </a>
+        <a href='/CreateCardSNS' className='p-5'>
+          Create Card (SNS)
+        </a>
+        <a href='/ShareCard' className='p-5'>
+          Share Card
         </a>
         <a href='#' className='p-5'>
-          Share Card
+          Presskit
         </a>
         
       </div>
@@ -29,26 +36,32 @@ export default function DefaultNavbar () {
       {toggle
         ? (
           <div className='bg-grey rounded-md absolute top-[80px] flex flex-col'>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+            <a href='/login' className='px-5 py-2 flex justify-center items-center text-center'>
               Login
             </a>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+            <a href='/register' className='px-5 py-2 flex justify-center items-center text-center'>
               Register
             </a>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
-              Create Card
+            <a href='/CreateCardGeneral' className='px-5 py-2 flex justify-center items-center text-center'>
+              Create Card (General)
+            </a>
+            <a href='/CreateCardSNS' className='px-5 py-2 flex justify-center items-center text-center'>
+              Create Card (SNS)
+            </a>
+            <a href='/ShareCard' className='px-5 py-2 flex justify-center items-center text-center'>
+              Share Card
             </a>
             <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
-              Share Card
+              Presskit
             </a>
           </div>
           )
         : null}
-      <a href='#'>
+      <a href='/'>
         <img
           alt='Presskit Logo'
           className='mr-3 w-[55px]'
-          src='./qr_logo.png'
+          src={QRLogo}
         />
       </a>
     </nav>
