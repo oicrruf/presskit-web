@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from '../assets/Logo_160x160.png'
 
 const PrincipalPage = () => {
   return (
     <div className='max-w-80%'>
-      <div className='bg-gradient-to-t from-black-medium to-grey-dark h-screen flex flex-col items-center '>
-        <img src='./qr_logo.png' alt='Logo' className='w-3/12 m-10' />
+      <div className='bg-black-medium h-screen flex flex-col items-center '>
+        <img src={logo} alt='Logo' />
         <div className='text-white text-m m-10'>
           <p>
             ¡Crea tu tarjeta de presentación electrónica
