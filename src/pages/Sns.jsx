@@ -25,7 +25,7 @@ const Sns = () => {
       <div>
         <input type='text' className='InputSocial' value='Ex. https//:www.redsocial.com' />
 
-        <section className='bg-grey-medium rounded-[20px] container'>
+        <section className='bg-grey-medium rounded-[20px] flex flex-wrap justify-center my-[12.5px] h-[249px]'>
           <div className='IconBox'>
             <FontAwesomeIcon icon={faLinkedinIn} className='Icon' />
           </div>

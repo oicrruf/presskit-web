@@ -1,9 +1,5 @@
 /* @import url(https//:use.fontawesome.com/releases/v6.4.2/css/all.css); */
 
-*{
-    font-size: 16px;
-   
-}
 .Logo {
     display: grid;
     place-items: center;
@@ -47,17 +43,6 @@
 }
 
 /* ICONOS */
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: Inter, Tahoma;
-    margin: 12.5px 0 12.5px 0;
-    width: 22.6px;
-    min-width: 348;
-    max-width: 500px;
-    height: 249px;
-}
 .Icon{
     color: rgba(0, 0, 0, .5);
     width: 55px;
