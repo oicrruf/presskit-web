@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/Logo_160x160.png'
+import { Link } from 'react-router-dom'
 
 const PrincipalPage = () => {
   return (
@@ -17,8 +18,12 @@ const PrincipalPage = () => {
         </div>
         <div className='container bg-grey-dark rounded-xl shadow border p-8 m-10 max-w-100% d-flex justify-content-center grid-rows-1'>
           <div className=''>
-            <button type='submit' className='bg-black text-white rounded-lg w-80 m-1.5 text-4xl'>Login</button>
-            <button type='submit' className='bg-black text-white rounded-lg w-80 m-1.5 text-4xl'>Register</button>
+            <Link to='/login'>
+              <button className='bg-black text-white rounded-lg w-80 m-1.5 text-4xl'>Login</button>
+            </Link>
+            <Link to='/register'>
+              <button className='bg-black text-white rounded-lg w-80 m-1.5 text-4xl'>Register</button>
+            </Link>
           </div>
         </div>
         <div>
