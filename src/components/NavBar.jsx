@@ -56,7 +56,7 @@ export default function DefaultNavbar () {
           </div>
           )
         : null}
-      <a href='#'>
+      <a href='/'>
         <img
           alt='Presskit Logo'
           className='mr-3 w-[55px]'

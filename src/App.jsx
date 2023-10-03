@@ -12,7 +12,7 @@ function App () {
     <Router>
       <DefaultNavbar />
       <Routes>
-        <Route path='/' element={<Register />} /> {/* cambiar a inicio */}
+        <Route path='/' element={<PrincipalPage />} /> {/* cambiar a inicio */}
         <Route path='/register' element={<Register />} />
         {/* <Route path='/CreateCardSNS' element={<CreateCardSNS />} /> */}
         <Route path='/CreateCardGeneral' element={<CreateCardGeneral />} />
