@@ -7,6 +7,7 @@ export default function DefaultNavbar () {
 
   return (
     <nav
+    
       className='bg-black-medium text-xl flex justify-between items-center px-4 py-2'
     >
       <div className='hidden md:block text-white'>
