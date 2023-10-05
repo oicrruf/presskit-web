@@ -1,0 +1,15 @@
+.InfoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 19px;
+    background-color: rgba(217, 217, 217, .09);
+    color: white;
+    font-family: Inter, Tahoma;
+    margin: 12.5px 0 12.5px 0;
+    min-width: 348px;
+    max-width: 500px;
+}
+
+
+

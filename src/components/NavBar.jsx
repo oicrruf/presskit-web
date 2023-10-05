@@ -25,9 +25,10 @@ export default function DefaultNavbar () {
         <a href='/ShareCard' className='p-5'>
           Compartir Tarjeta
         </a>
-        <a href='#' className='p-5'>
+        <a href='/Presskit' className='p-5'>
           Presskit
         </a>
+
       </div>
       <div className='md:hidden flex align-middle justify-center p-1'>
         <BiMenu onClick={(e) => setToggle(!toggle)} className='text-white text-6xl cursor-pointer' />
@@ -50,7 +51,7 @@ export default function DefaultNavbar () {
             <a href='/ShareCard' className='px-5 py-2 flex justify-center items-center text-center'>
               Compartir Tarjeta
             </a>
-            <a href='#' className='px-5 py-2 flex justify-center items-center text-center'>
+            <a href='/Presskit' className='px-5 py-2 flex justify-center items-center text-center'>
               Presskit
             </a>
           </div>
