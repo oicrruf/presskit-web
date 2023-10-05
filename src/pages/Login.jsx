@@ -11,7 +11,7 @@ const Login = () => {
   const handleLogin = async () => {
     try {
       // Realiza una solicitud POST al servidor con los datos del usuario
-      const response = await axios.post('URL_DEL_SERVIDOR', {
+      const response = await axios.POST('https://cute-jade-drill-sock.cyclic.cloud/api/v1/login', {
         email,
         password
       })
