@@ -1,6 +1,36 @@
+import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import logo from '../assets/Logo_160x160.png'
+import axios from 'axios'
 
 const Login = () => {
+  const history = useHistory()
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+
+  const handleLogin = async () => {
+    try {
+      // Realiza una solicitud POST al servidor con los datos del usuario
+      const response = await axios.post('URL_DEL_SERVIDOR', {
+        email,
+        password
+      })
+
+      // Verifica la respuesta del servidor
+      if (response.data.success) {
+        // Si la respuesta indica que el inicio de sesión fue exitoso,
+        // puedes redirigir al usuario a la página deseada.
+        history.push('/CreateCardGeneral')
+      } else {
+        // En caso contrario, muestra un mensaje de error o toma otra acción.
+        console.error('Inicio de sesión fallido')
+      }
+    } catch (error) {
+      // Maneja errores de la solicitud, por ejemplo, si no se puede conectar al servidor.
+      console.error('Error al realizar la solicitud al servidor', error)
+    }
+  }
+
   return (
     <>
       <div className='bg-black-medium min-h-screen flex flex-col'>
@@ -36,6 +66,8 @@ const Login = () => {
                 className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full'
                 type='text'
                 placeholder='Email'
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div>
@@ -44,11 +76,16 @@ const Login = () => {
                 className='bg-grey-medium rounded-[20px] mb-5 h-[40px] placeholder:text-white placeholder:ps-5 text-white w-full'
                 type='password'
                 placeholder='Password'
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
               />
             </div>
           </section>
           <div className='text-center mt-4'>
-            <button className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'>
+            <button
+              className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'
+              onClick={handleLogin}
+            >
               Login
             </button>
           </div>
