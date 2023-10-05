@@ -25,7 +25,7 @@ const Sns = () => {
       </div>
 
       <div>
-        <input type='text' className='InputSocial' value='Ex. https//:www.redsocial.com' />
+        <input type='text' className='InputSocial' placeholder='Ex. https//:www.redsocial.com' />
 
         <section className='bg-grey-medium rounded-[20px] flex flex-wrap justify-center my-[12.5px] h-[249px]'>
           <div className='IconBox'>
@@ -45,8 +45,8 @@ const Sns = () => {
       </div>
       <div>
 
-        <button className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'
-        onClick = {sayHello}/* {() => alert.alert('Simple Button press')} */>Crear tarjeta</button>
+        <button className='bg-green w-[240px] h-[45px] rounded-[20px] text-xl mb-5 text-black'>Crear tarjeta
+        </button>
       </div>
 
     </div>
