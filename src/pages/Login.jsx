@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import logo from '../assets/Logo_160x160.png'
 import axios from 'axios'
 
 const Login = () => {
-  const history = useHistory()
+  const navigate = useNavigate()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
   const handleLogin = async () => {
     try {
       // Realiza una solicitud POST al servidor con los datos del usuario
-      const response = await axios.POST('https://cute-jade-drill-sock.cyclic.cloud/api/v1/login', {
+      const response = await axios.post('https://cute-jade-drill-sock.cyclic.cloud/api/v1/login', {
         email,
         password
       })
@@ -20,7 +20,7 @@ const Login = () => {
       if (response.data.success) {
         // Si la respuesta indica que el inicio de sesión fue exitoso,
         // puedes redirigir al usuario a la página deseada.
-        history.push('/CreateCardGeneral')
+        navigate('/CreateCardGeneral')
       } else {
         // En caso contrario, muestra un mensaje de error o toma otra acción.
         console.error('Inicio de sesión fallido')
