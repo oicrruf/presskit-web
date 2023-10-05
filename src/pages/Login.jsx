@@ -8,7 +8,7 @@ const Login = () => {
         {/* Sección superior */}
         <section className='bg-grey-light p-4 text-center'>
           <div className='flex items-center justify-center'>
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt='Logo' />
           </div>
           <div className='mt-4'>
             <h2>
